@@ -11,6 +11,8 @@ public class Salesforce {
 		WebDriver driver=new ChromeDriver();
 		
 		
+		//How to login to salesforce using elements from the web page using chrome developer tools//
+		
 		driver.get("https://login.salesforce.com");
 		driver.findElement(By.id("username")).sendKeys("Neil McCormick");
 		driver.findElement(By.name("pw")).sendKeys("Password");

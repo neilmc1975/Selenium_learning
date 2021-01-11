@@ -1,4 +1,3 @@
-import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 
@@ -12,7 +11,7 @@ public class Facebook_login {
 		
 		
 		driver.get("http://www.procreditcontrol.co.uk/");
-		driver.findElement(By.name(= "About").click());
+		
 	
 	
 
