@@ -27,8 +27,13 @@ public class demo2 {
 		driver.get("http://google.com"); //Bring up web page//
 		System.out.println(driver.getTitle());// Print title page in console to confirm correct page//
 		System.out.println(driver.getCurrentUrl());// Print Url in console to confirm URL is right not hacked//
-		System.out.println(driver.getPageSource());// Print Page source in console//
 		
+		//System.out.println(driver.getPageSource());// Print Page source in console//
+		
+		driver.get("http://yahoo.com");
+		driver.navigate().back();
+		driver.navigate().forward();
+		driver.close();
 		
 		
 		
