@@ -1,3 +1,4 @@
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 
@@ -27,17 +28,17 @@ public class demo2 {
 		driver.get("http://google.com"); //Bring up web page//
 		System.out.println(driver.getTitle());// Print title page in console to confirm correct page//
 		System.out.println(driver.getCurrentUrl());// Print Url in console to confirm URL is right not hacked//
-		
-		//System.out.println(driver.getPageSource());// Print Page source in console//
-		
-		driver.get("http://yahoo.com");
-		driver.navigate().back();
-		driver.navigate().forward();
-		driver.close();
+		driver.findElement(By.xpath("//*[@id=\'yDmH0d\']")).click();
 		
 		
+		//driver.get("http://yahoo.com");
+		//driver.navigate().back();
+		//driver.navigate().forward();
+		//driver.close();
 		
-	
+		
+		
+		//*[@id='introAgreeButton']/span/span
 		
 	}
 
